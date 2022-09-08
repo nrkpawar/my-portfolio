@@ -1,0 +1,11 @@
+body {
+    background-color:rgb(14, 14, 49);
+    margin: 20px 0 ;
+}
+.heading h1{
+    font-size: 60px;
+    text-align: center;
+    color: beige;
+    text-shadow: 5px 5px 20px 0px black;
+    margin: 280px;
+}

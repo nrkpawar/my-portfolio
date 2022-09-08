@@ -1,0 +1,70 @@
+* {
+    color: rgb(216, 224, 198);
+}
+
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(37, 9, 9);
+    padding: 11.5px 0;
+    height: 640px;
+    box-shadow: 2px 2px 5px 1px black;
+    position: relative;
+}
+
+.profile-sec {
+    padding: 13px 40px;
+    box-shadow: -1px 4px 10px -10px wheat;
+}
+
+.nav-sec a {
+    list-style: none;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.nav-sec a:hover {
+    background-color: rgb(14, 14, 49);
+    border-radius: 30px 0 0 30px;
+}
+
+.nav-sec ul a {
+    text-decoration: none;
+    display: block;
+}
+
+.profile-sec img {
+    border-radius: 20px 50px;
+}
+
+.social-icon a {
+    margin: 0 10px;
+    display: none;
+}
+
+.copyrights p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 30px;
+    color: palegreen;
+}
+
+div.fixed h3{
+    position: fixed;
+    bottom: -20px;
+    right: 0;
+    padding: 10px 20px 10px ;
+    width: 100%;
+    text-align: end;
+    
+    font-weight: 100px;
+    
+}
